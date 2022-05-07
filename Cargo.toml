@@ -1,0 +1,12 @@
+[package]
+name = "assent"
+description = "Lightweight wrapper for Discord API"
+version = "0.0.0"
+keywords = ["discord", "bot", "api"]
+license = "MIT OR Apache-2.0"
+authors = ["Shift <shiftkeydeveloper@gmail.com>"]
+homepage = "https://github.com/shift-d/assent"
+repository = "https://github.com/shift-d/assent.git"
+documentation = "https://docs.rs/assent"
+include = ["src/*.rs", "license-mit", "license-apache", "readme.md"]
+edition = "2021"

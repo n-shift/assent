@@ -10,3 +10,7 @@ repository = "https://github.com/shift-d/assent.git"
 documentation = "https://docs.rs/assent"
 include = ["src/*.rs", "license-mit", "license-apache", "readme.md"]
 edition = "2021"
+
+[dependencies]
+hyper = { version = "0.14.18", features = ["client"] }
+tokio = { version = "1.18.1", features = ["macros"] }
